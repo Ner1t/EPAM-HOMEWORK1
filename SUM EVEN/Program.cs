@@ -7,7 +7,7 @@ namespace SUM_EVEN
         static void Main(string[] args)
         {
             int sum = 0;
-            int[] even =  { 1, 2, 3, 4, 5, 6 };
+            int[] even =  { 1, 2, 3, 4, 5, 6, 7 };
             for (int i = 1; i < even.Length; i++)
             {
                 if (even[i] % 2 == 0)
